@@ -35,4 +35,5 @@ for day in data['list']:
 
 DF = pd.DataFrame(TABLE)
 #print(DF[["date", "temperature"]])
-print(DF[DF["temperature"] < -8])
+#print(DF[DF["temperature"] < -8])
+print(DF.describe())
